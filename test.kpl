@@ -1,1 +1,28 @@
-Este es un archivo de prueba que se usará para testear la sintáxis creada.
+x = 10
+ver x
+
+si x > 5 {
+  ver 1
+} sino {
+  ver 0
+}
+
+i = 0
+mientras i < 3 {
+  ver i
+  i = i + 1
+}
+
+hacer j = 0 , j < 3 , j = j + 1 {
+  ver j
+}
+
+tarea suma ( a , b ) {
+  haz a + b
+}
+
+r = suma ( 2 , 3 )
+ver r
+
+PI = 3
+ver PI

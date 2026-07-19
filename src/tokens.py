@@ -4,14 +4,20 @@ T_OP    = "OP" # operador
 T_ID    = "IDENTIFIER" # identificador
 T_EOF   = "EOF" # fin de archivo
 
-T_SI       = "SI"
-T_SINO     = "SINO"
-T_MIENTRAS = "MIENTRAS"
-T_TAREA    = "TAREA"
-T_HAZ      = "HAZ"
-T_HACER    = "HACER"
-T_VER      = "VER"
-T_TOMAR    = "TOMAR"
+T_LPAREN = "LPAREN" # (
+T_RPAREN = "RPAREN" # )
+T_LBRACE = "LBRACE" # {
+T_RBRACE = "RBRACE" # }
+T_COMMA  = "COMMA" # ,
+
+T_SI       = "SI" # si
+T_SINO     = "SINO" # sino
+T_MIENTRAS = "MIENTRAS" # mientras
+T_TAREA    = "TAREA" # tarea
+T_HAZ      = "HAZ" # haz
+T_HACER    = "HACER" # hacer
+T_VER      = "VER" # ver
+T_TOMAR    = "TOMAR" # tomar
 
 # TODO: Añadir los tokens para el tipo string
 # T_STRING = "STRING" # cadena de texto
@@ -25,6 +31,7 @@ KEYWORDS = {
     "hacer":      T_HACER, # Ciclo for
     "ver":        T_VER, # imprimir o mostrar
     "tomar":      T_TOMAR, # tomar un valor
+    
     # TODO: AÑADIR LAS PALABRAS RESERVADAS PARA TRUE Y FALSE
     # "verdadero":  T_BOOL,   # o T_TRUE
     # "falso":      T_BOOL,   # o T_FALSE
